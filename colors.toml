@@ -1,0 +1,33 @@
+mode = "dark"
+
+accent = "#ffa07a"
+selection = "#4d424b"
+muted = "#6f5d63"
+
+background = "#2b292d"
+dark_background = "#1f1e20"
+darker_background = "#161617"
+lighter_background = "#383539"
+
+foreground = "#fecdb2"
+dark_foreground = "#9a7f7b"
+light_foreground = "#be9a8e"
+bright_foreground = "#fecdb2"
+
+red = "#c05862"
+yellow = "#f5d76e"
+orange = "#fabc74"
+green = "#b1b695"
+cyan = "#bfbfcf"
+# Ferra's palette has no true blue, so upstream ports map the ANSI "blue"
+# slot to coral. Kept consistent with alacritty/ghostty/wezterm/kakoune.
+blue = "#ffa07a"
+magenta = "#f6b6c9"
+brown = "#6b4d44"
+
+bright_red = "#e06b75"
+bright_yellow = "#fff27a"
+bright_green = "#9f9f7c"
+bright_cyan = "#d1d1e0"
+bright_blue = "#e88c6f"
+bright_magenta = "#ffb9cc"

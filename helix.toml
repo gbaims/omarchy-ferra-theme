@@ -1,0 +1,8 @@
+inherits = "ferra"
+
+# Ferra ships as a built-in Helix theme, so this keeps the authentic upstream
+# design instead of the reconstruction Omarchy would otherwise generate from
+# colors.toml. The only override needed is background transparency, matching
+# every other Omarchy theme, so the terminal's background (and its opacity/
+# blur) shows through instead of Ferra's opaque "night".
+"ui.background" = {}
